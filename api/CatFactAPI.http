@@ -1,0 +1,11 @@
+@CatFactAPI_HostAddress = https://localhost:7029
+
+GET {{CatFactAPI_HostAddress}}/api/CatFact
+Accept: application/json
+
+###
+
+GET {{CatFactAPI_HostAddress}}/api/catfact/history
+Accept: application/json
+
+###
